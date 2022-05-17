@@ -6,7 +6,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
     
     <bean  id = "info" class ="com.springcore.constructorinjection.Person">
-    <constructor-arg value = "Nikita"></constructor-arg>
-    <constructor-arg value = "nikita@gmail.com"></constructor-arg>
+    <constructor-arg name = "email" value = "nikita@gmail.com"></constructor-arg>
+    <constructor-arg name = "name" value = "nikita"></constructor-arg>
     </bean>
    </beans>
